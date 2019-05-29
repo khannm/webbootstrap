@@ -1,0 +1,38 @@
+body{
+    width: 1278px;
+    
+}
+#banner {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+	background-repeat: no-repeat;
+    clear: both;
+    height:500px;
+    width: 100%;
+    position: relative;
+    line-height: 0.5;
+    font-size: 25px;
+    color: black;
+        }
+.content{
+            padding-top: 120px;
+            padding-left: 70px;
+            width: 100%;
+        }
+@media only screen and (max-width: 992px){
+    #banner{
+        background-image: none;
+        background-color: bisque;
+        height: 300px;
+        
+    }
+    .content{
+        padding-top: none;
+        padding-left: none;
+        float: left;
+    }
+}
+
+.pic{
+    padding: 10px; 
+   
+}
